@@ -55,35 +55,7 @@ color: var(--purchase-color);
 </style>
 
 </head>
-
-    <div class="row">
-      <div class="col-sm-4 form-display mt-4">
-
-  <form id="signup-form" class="mt-2 ms-3 me-3 sign-up-display shadow-lg"action="/signup" method="POST">
   
-    <div class="text-center web-meaning">
-      Picture Perfect
-           </div>
-    <label for="username" class="heading ">Username</label>
-
-    <input type="text" id="username" class="ps-1 pe-1 mt-1 mb-1"name="username" required>
-
-    <label for="email"class="heading">Email</label>
-
-   
-    <input type="email" id="email"class="ps-1 pe-1 mt-1 mb-1" name="email" required>
-
-    <label for="password"class="heading">Password</label>
-
-    
-    <input type="password" id="password"class="ps-1 pe-1 mt-1 mb-1" name="password" required>
-    <br />
-    <button type="submit"class="mt-2 mb-2 btn btn-warning">Sign Up</button>
-  </form>
-   
-</div>
-</div>
-</div>
   <script>
     document.getElementById('signup-form').addEventListener('submit', function(event) {
       event.preventDefault();
